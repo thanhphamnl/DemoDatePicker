@@ -41,7 +41,7 @@ public class datePicker {
 			driver.findElement(By.xpath(
 					"//div[@class='gws-flights-form__secondary-constraints gws-flights__flex-box']//div//dropdown-menu//span[@class='z1asCe K1bG5d']//*[local-name()='svg']"))
 					.click();
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 
 			driver.findElement(By.xpath(
 					"//div[@class='mSPnZKpnf91__menu mSPnZKpnf91__cover-button mSPnZKpnf91__open']//span[contains(text(),'One way')]"))
